@@ -1,0 +1,53 @@
+.brewNumber {
+	text-align: center;
+	width: 3em !important;
+	overflow: hidden;
+}
+.brewName {
+	text-align: center;
+	max-width: 15em !important;
+	overflow: hidden;
+}
+.brewStyle {
+	text-align: center;
+	max-width: 15em !important;
+	overflow: hidden;
+}
+.brewNotes {
+	text-align: center;
+	max-width: 30em !important;
+	overflow: hidden;
+}
+.brewOG {
+	text-align: center;
+	max-width: 5em !important;
+	overflow: hidden;
+}
+.brewFG {
+	text-align: center;
+	max-width: 5em !important;
+	overflow: hidden;
+}
+.brewSRM {
+	text-align: center;
+	max-width: 5em !important;
+	overflow: hidden;
+}
+.brewIBU {
+	text-align: center;
+	max-width: 5em !important;
+	overflow: hidden;
+}
+.brewAmt {
+	text-align: center;
+	max-width: 5em !important;
+	overflow: hidden;
+}
+.brewSize {
+	text-align: center;
+	max-width: 5em !important;
+	overflow: hidden;
+}
+.delete {
+	text-align: center;
+}
