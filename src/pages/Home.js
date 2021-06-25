@@ -155,16 +155,11 @@ export const Home = () => {
 							<Tab label='Bottle List' {...a11yProps(1)} />
 						)}
 					</Tabs>
-					{isAuthenticated && (
-						<Typography
-							variant='h6'
-							className={(classes.title, classes.logOut)}
-						>
-							<Link to='/admin' className={(classes.title, classes.toolBar)}>
-								<SettingsIcon />
-							</Link>
-						</Typography>
-					)}
+					<Typography variant='h6' className={(classes.title, classes.logOut)}>
+						<Link to='/admin' className={(classes.title, classes.toolBar)}>
+							<SettingsIcon />
+						</Link>
+					</Typography>
 				</Toolbar>
 			</AppBar>
 			<Grow in={value === 0} timeout={500}>
