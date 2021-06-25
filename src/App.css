@@ -72,7 +72,7 @@ input[type='number'] {
 
 /*  GENERAL */
 .brew-list-even-row-dark {
-	background-color: rgba(30, 30, 30, 0.7);
+	background-color: rgba(30, 30, 30, 0.9);
 }
 
 .brew-list-odd-row-dark {
@@ -96,12 +96,12 @@ input[type='number'] {
 }
 
 .background-dark {
-	background-size: 10px 10px;
+	background-size: 5px 5px;
 	background: repeating-linear-gradient(
 		45deg,
 		#606060 0,
-		#606060 2px,
-		#202020 0,
+		#606060 1px,
+		#202020 0px,
 		#202020 15px
 	);
 }
