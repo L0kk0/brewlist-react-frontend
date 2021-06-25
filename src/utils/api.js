@@ -16,17 +16,14 @@ const api = axios.create({
 
 /* api.interceptors.response.use(
 	(res) => {
-		console.log(res);
 		return res;
 	},
 	(error) => {
-		console.log('Tacos', error);
 		if (error.response.data.msg === 'Token is not valid') {
 			//store.dispatch({ type: LOGOUT });
 		}
 
 		//store.dispatch({ type: LOGOUT });
-		console.log('Burritos', error);
 		return Promise.reject(error);
 	}
 ); */
