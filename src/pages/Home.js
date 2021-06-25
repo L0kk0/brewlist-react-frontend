@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 		height: '90px',
 	},
 	toolBar: {
-		flexGrow: 0.5,
+		flexGrow: 1,
 	},
 	tabIndicator: {
 		backgroundColor: grey[100],

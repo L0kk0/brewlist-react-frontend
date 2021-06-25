@@ -96,15 +96,14 @@ input[type='number'] {
 }
 
 .background-dark {
-	background-size: 5px 5px;
-	background-image: repeating-linear-gradient(
+	background-size: 10px 10px;
+	background: repeating-linear-gradient(
 		45deg,
 		#606060 0,
-		#606060 0.5px,
+		#606060 2px,
 		#202020 0,
-		#202020 50%
+		#202020 15px
 	);
-	background-position: 0.1rem 0;
 }
 
 .background-light {

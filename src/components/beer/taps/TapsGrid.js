@@ -164,8 +164,7 @@ export const TapsGrid = (props) => {
 														<React.Fragment>
 															{settings.pourPermissions ? (
 																<React.Fragment>
-																	{props.ip === settings.permittedIpAddress &&
-																	tap.amtLeft > 0 ? (
+																	{props.ip === settings.permittedIpAddress ? (
 																		<KegButton
 																			tap={tap}
 																			settings={settings}

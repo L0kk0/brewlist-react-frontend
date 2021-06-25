@@ -4,11 +4,13 @@ export default function KegButton(props) {
 	const [fade, setFade] = useState(false);
 
 	const pourThisBeer = () => {
-		setFade(true);
-		props.pourTap(props.tap, props.pourSize);
-		setTimeout(function () {
-			setFade(false);
-		}, 300);
+		if (props.tap.amtLeft > 0) {
+			setFade(true);
+			props.pourTap(props.tap, props.pourSize);
+			setTimeout(function () {
+				setFade(false);
+			}, 300);
+		}
 	};
 
 	return (
