@@ -17,7 +17,6 @@ import BottlesGrid from '../components/beer/bottles/BottlesGrid';
 import Grow from '@material-ui/core/Grow';
 import TabPanel from '../components/TabPanel';
 import SettingsIcon from '@material-ui/icons/Settings';
-import { selectIsAuthenticated } from '../redux/authSlice';
 import publicIp from 'public-ip';
 
 function a11yProps(index) {
@@ -66,7 +65,6 @@ export const Home = () => {
 	const classes = useStyles();
 
 	const dispatch = useDispatch();
-	const isAuthenticated = useSelector(selectIsAuthenticated);
 	const taps = useSelector(selectTaps);
 	const bottles = useSelector(selectBottles);
 	const settings = useSelector(selectSettings);
